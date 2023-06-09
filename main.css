@@ -1,25 +1,28 @@
-@font-face {
-    font-family: dm;
-    src: url(./fonts/DMSerifDisplay-Regular.ttf);
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;    
-}
-:root{
-    --first-color:#2A3950;
-    --second-color:#FFFFFF;
-    --last-color:#00E0C7;
-}
-.container{
-    max-width: 1620px;
-    margin: 0px auto;
-}
-
 /* link with another styles */
 @import"./style/bekzod.css";
 @import"./style/lazizbek.css";
 @import"./style/murod.css";
 @import"./style/muzaffar.css";
 @import"./style/ravshan.css";
+
+@font-face {
+    font-family: dm;
+    src: url(./fonts/DMSerifDisplay-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --first-color: #2A3950;
+    --second-color: #FFFFFF;
+    --last-color: #00E0C7;
+}
+
+.container {
+    max-width: 1620px;
+    margin: 0px auto;
+}
