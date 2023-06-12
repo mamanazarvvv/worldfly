@@ -108,6 +108,9 @@ padding: 100px 0;
 }
 .popular_cards{
     display: flex;
+    gap: 100px;
+    overflow-x: scroll;
+    position: relative;
 }
 
 .popular_card {
@@ -116,10 +119,16 @@ padding: 100px 0;
     display: flex;
     padding: 30px 30px 30px 50px;
     border-radius: 50px;
+    
 }
 
 .popular_card_left {
     width: 60%;
+
+}
+.popular_card:nth-child(2){
+    position: absolute;
+    right: -550px;
 }
 
 .popular_card_left_txt {
